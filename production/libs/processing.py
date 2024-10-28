@@ -6,10 +6,6 @@ from sklearn.preprocessing import LabelEncoder
 from tqdm import tqdm
 from typing import Callable, List
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-import scipy.sparse as scs
-
 from production.libs.metrics import *
 
 
