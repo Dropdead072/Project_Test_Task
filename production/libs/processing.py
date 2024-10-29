@@ -6,12 +6,12 @@ from sklearn.preprocessing import LabelEncoder
 from tqdm import tqdm
 from typing import Callable, List
 
-from production.libs.metrics import *
+from libs.metrics import *
 
 
-def train_test_split(ratings, ):
+def train_test_split(ratings, num_samples=50):
     train_ratings, test_ratings = [], []
-    num_test_samples = 50
+    num_test_samples = num_samples
 
     # getting train samples
     for userId, user_data in tqdm(ratings.groupby('userId')):
