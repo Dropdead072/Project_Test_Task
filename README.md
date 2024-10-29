@@ -1,5 +1,10 @@
 # Project test task README
 
+
+## Issues 
+
+- Debug the uencoder, iencoder in preprocess_data
+
 ## Materials
 
 ### Dataset
@@ -13,6 +18,9 @@ The dataset will be retrieved from here, as well as some code since I have done 
 [GirafeAI Course on MLOps](https://github.com/girafe-ai/mlops/tree/master)
 
 I will probably check this course every now and then
+
+
+
 
 ## Solution 
 
